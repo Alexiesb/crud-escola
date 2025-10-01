@@ -1,7 +1,6 @@
 const express = require('express');
 const router = express.Router();
 
-
 let alunos = [
   {
     id: '1',
