@@ -9,6 +9,8 @@ const alunosRouter = require('./routes/alunos');
 app.use('/alunos', alunosRouter);
 
 // TODO: Membro 2 - Importar e mapear rota de professores
+const professoresRouter = require('./routes/professores');
+app.use('/professores', professoresRouter);
 
 app.listen(3000, () => {
 console.log('Server is running on http://localhost:3000')
